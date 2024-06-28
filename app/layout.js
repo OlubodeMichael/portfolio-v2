@@ -20,7 +20,6 @@ export default function RootLayout({ children }) {
           <div className="flex flex-col sm:flex-row">
             <LinkNav add="https://github.com/OlubodeMichael">Github</LinkNav>
             <LinkNav add="https://www.linkedin.com/in/michael-olubode-olushola/">Linkedin</LinkNav>
-            <LinkNav add="https://github.com/OlubodeMichael">Github</LinkNav>
           </div>
           <Footer className="w-full max-w-[350px] sm:max-w-[600px] m-4" />
         </div>

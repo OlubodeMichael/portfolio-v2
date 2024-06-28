@@ -1,4 +1,4 @@
-import Link from "next/link";
+import LinkNav from "./components/LinkNav";
 
 export default function Home() {
   return (
@@ -9,19 +9,9 @@ export default function Home() {
           <p className="text-[16px] text-slate-100 font-light">
             Hello, I'm Michael Olubode, a dedicated software engineer. I specialize in designing and developing software solutions that drive overall product success. With a strong commitment to user-centric design and a passion for clean, intuitive interfaces, I thrive on transforming complex requirements into seamless user experiences. I bring a blend of creativity and technical expertise to deliver solutions that meet strategic business objectives and exceed user expectations.
           </p>
-          <Link href="google.com" className="text-zinc-400">Resume</Link>
+          <LinkNav add="/resume.pdf" target="_blank" className="text-zinc-400 py-4">Resume</LinkNav>
         </div>
         <div>
-          <h3 className="py-6 text-lg font-bold">Academic Background</h3>
-          <div>
-            <h5 className="py-2 text-base font-bold">
-              Bachelor of Science in Computer Science
-            </h5>
-            <ul className="px-2 text-base list-disc list-inside">
-              <li>University of Maryland Eastern Shore</li>
-              <li>Graduation: May 2025</li>
-            </ul>
-          </div>
           <div>
             <h5 className="py-2 text-base font-bold">
               Relevant Courses
