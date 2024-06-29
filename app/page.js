@@ -1,6 +1,7 @@
 import LinkNav from "./components/LinkNav";
 import Title from "./components/Title";
 import SubTitle from "./components/SubTitle";
+import Text from "./components/Text";
 
 export default function Home() {
   return (
@@ -8,9 +9,9 @@ export default function Home() {
       <Title>My Portfolio</Title>
       <div>
         <div className="flex flex-col space-y-4">
-          <p className="text-[16px] text-slate-100 font-light">
+          <Text>
             Hello, I'm Michael Olubode, a dedicated software engineer. I specialize in designing and developing software solutions that drive overall product success. With a strong commitment to user-centric design and a passion for clean, intuitive interfaces, I thrive on transforming complex requirements into seamless user experiences. I bring a blend of creativity and technical expertise to deliver solutions that meet strategic business objectives and exceed user expectations.
-          </p>
+          </Text>
           <LinkNav add="/resume.pdf" target="_blank" className="text-zinc-400 py-4 w-32">Resume</LinkNav>
         </div>
         <div>
