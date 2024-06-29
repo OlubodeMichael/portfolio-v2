@@ -1,8 +1,10 @@
+import Title from "../components/Title";
+
 
 export default function Project() {
     return (
     <div>
-        <h1 className="text-xl ">My Projects</h1>
+        <Title>My Projects</Title>
       </div>
     );
   }
