@@ -1,7 +1,7 @@
-import LinkNav from "./components/LinkNav";
-import Title from "./components/Title";
-import SubTitle from "./components/SubTitle";
-import Text from "./components/Text";
+import LinkNav from "./_components/LinkNav";
+import Title from "./_components/Title";
+import SubTitle from "./_components/SubTitle";
+import Text from "./_components/Text";
 
 export default function Home() {
   return (

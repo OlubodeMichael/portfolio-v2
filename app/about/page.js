@@ -1,7 +1,12 @@
-import Title from "../components/Title";
-import SubTitle from "../components/SubTitle";
-import Text from "../components/Text";
-import ExperienceCard from "../components/ExperienceCard";
+import Title from "../_components/Title";
+import SubTitle from "../_components/SubTitle";
+import Text from "../_components/Text";
+import ExperienceCard from "../_components/ExperienceCard";
+
+
+export const metadata = {
+    title: "About",
+}
 
 export default function About() {
     return (

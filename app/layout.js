@@ -1,12 +1,14 @@
 import "@/app/_styles/global.css";
-import Navigation from "./components/Navigation";
-import Footer from "./components/Footer";
-import LinkNav from "./components/LinkNav";
+import Navigation from "./_components/Navigation";
+import Footer from "./_components/Footer";
+import LinkNav from "./_components/LinkNav";
 
 export const metadata = {
-  title: 'Michael Olubode',
-  description: 'Michael Olubode Portfolio',
-};
+  title: {
+    template: "Michael Olubode - %s",
+    default: "Michael Olubode",
+  }
+}
 
 export default function RootLayout({ children }) {
   return (
