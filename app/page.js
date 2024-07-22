@@ -32,6 +32,10 @@ export default function Home() {
                 <span className="font-normal">Database Management Systems: </span>
                 Covered database design, SQL, and management of relational databases.
               </li>
+              <li className="py-2 font-thin">
+                <span className="font-normal">Machine Learning and AI: </span>
+                Covered database design, SQL, and management of relational databases.
+              </li>
               <li className="pt-2  pb-6 font-thin">
                 <span className="font-normal">Internet Programming: </span>
                 Gained proficiency in HTML, CSS, JavaScript, and modern web frameworks.

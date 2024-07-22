@@ -2,6 +2,7 @@ import Title from "../_components/Title";
 import SubTitle from "../_components/SubTitle";
 import Text from "../_components/Text";
 import ExperienceCard from "../_components/ExperienceCard";
+import Technologies from "@/app/_components/Technologies";
 
 
 export const metadata = {
@@ -24,6 +25,8 @@ export default function About() {
         {/*Skills section */}
         <SubTitle>Skills</SubTitle>
         <h6>Programming Languages</h6>
+        <Technologies left={true}/>
+        <Technologies left={false}/>
 
         {/*Experience section */}
         <SubTitle>Experiences</SubTitle>
