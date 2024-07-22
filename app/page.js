@@ -34,7 +34,7 @@ export default function Home() {
               </li>
               <li className="py-2 font-thin">
                 <span className="font-normal">Machine Learning and AI: </span>
-                Covered database design, SQL, and management of relational databases.
+                Studied various topics, including search algorithms, knowledge representation, handling uncertainty, optimization techniques, learning algorithms, neural networks, and natural language processing.
               </li>
               <li className="pt-2  pb-6 font-thin">
                 <span className="font-normal">Internet Programming: </span>
