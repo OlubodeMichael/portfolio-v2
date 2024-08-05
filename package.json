@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "developer-icons": "^4.2.2",
+    "devicon": "^2.16.0",
     "framer-motion": "^11.3.8",
     "framer-motion-ticker": "^1.0.19",
     "next": "^14.2.5",
