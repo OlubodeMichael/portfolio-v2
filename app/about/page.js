@@ -43,9 +43,9 @@ export default function About() {
             date="Jun 2024 - Present"
             title="Total Operational Weather Readiness-Satellites (TOWR-S)"
             role="Software Developer"
-            technologies={["Python", "JavaScript", "Linux OS", "SQL", "Git"]}
+            technologies={["Python", "JavaScript", "Linux OS", "SQL", "Git", "Jenkins", "AWS DynamoDB", "HTML/CSS", "AWS S3", "Python Sphinx"]}
         >
-            Worked as a Software Developer at TOWR-S, focusing on JavaScript-based scientific visualization with d3.js, processing remote sensing data for feature extraction, and advancing data sciences projects using Python, Redhat/CentOS Linux, and Git for software development and version control.
+            Maintained and enhanced an existing Python framework for compiling pre-written JavaScript components, facilitating data-driven web applications. Contributed to feature planning and task delegation while supporting the Continuous Deployment pipeline in Jenkins for Python Sphinx documentation. Played a key role in developing, testing, and integrating new functionalities for a React web application using agile methodologies. Monitored satellite data product flow, provided prompt customer support during outages, and utilized AWS S3 and DynamoDB to extend the framework’s capabilities. Engaged in collaborative efforts to ensure seamless project execution and improve overall system performance.
         </ExperienceCard>
         
     </div>
