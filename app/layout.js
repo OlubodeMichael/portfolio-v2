@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           <main className="mt-4">
             {children}
           </main>
-          <div className="flex flex-col sm:flex-row">
+          <div className="flex flex-col sm:flex-row mt-10">
             <LinkNav add="https://github.com/OlubodeMichael">Github</LinkNav>
             <LinkNav add="https://www.linkedin.com/in/michael-olubode-olushola/">Linkedin</LinkNav>
           </div>

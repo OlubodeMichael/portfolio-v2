@@ -1,8 +1,8 @@
 import Title from "../_components/Title";
-import SubTitle from "../_components/SubTitle";
 import Text from "../_components/Text";
 import ExperienceCard from "../_components/ExperienceCard";
 import Technologies from "@/app/_components/Technologies";
+import Accordion from "../_components/Accordion";
 import { 
     CPlusPlusIcon, JavaScriptIcon, PythonIcon, 
     ReactIcon, SwiftIcon, MySQLIcon, 
@@ -42,36 +42,40 @@ export default function About() {
         <Text>I am committed to continuous learning and staying updated with the latest industry trends and technologies. My approach to software development is driven by a dedication to excellence and a desire to build products that make a meaningful impact.</Text>
 
         {/*Education section */}
-        <SubTitle>Education</SubTitle>
-        <p className="pt-2 font-thin"><span className="font-normal">Degree: </span> Bachelor of Science in Computer Science</p>
-        <p className="py-2 font-thin"><span className="font-normal">Institution: </span> University of Maryland Eastern Shore, Princess Anne, Maryland, USA</p>
+        <Accordion title="Education">
+            <p className="pt-2 font-thin"><span className="font-normal">Degree: </span> Bachelor of Science in Computer Science</p>
+            <p className="py-2 font-thin"><span className="font-normal">Institution: </span> University of Maryland Eastern Shore, Princess Anne, Maryland, USA</p>
+        </Accordion>
+
 
         {/*Skills section */}
-        <SubTitle>Skills</SubTitle>
-        <h6>Programming Languages</h6>
-        <Technologies left={true} list={languages}/>
-        <h6 className="">Frameworks</h6>
-        <Technologies left={false} list={frameworks}/>
+        <Accordion title="Skills">
+            <h6>Programming Languages</h6>
+            <Technologies left={true} list={languages}/>
+            <h6 className="">Frameworks</h6>
+            <Technologies left={false} list={frameworks}/>
+        </Accordion>
+        
 
         {/*Experience section */}
-        <SubTitle>Experiences</SubTitle>
-
-        <ExperienceCard
-            date="Jun 2024 - Present"
-            title="Total Operational Weather Readiness-Satellites (TOWR-S)"
-            role="Software Developer"
-            technologies={["Python", "JavaScript", "Linux OS", "SQL", "Git", "Jenkins", "AWS DynamoDB", "HTML/CSS", "AWS S3", "Python Sphinx"]}
-        >
-            Maintained and enhanced an existing Python framework for compiling pre-written JavaScript components, facilitating data-driven web applications. Contributed to feature planning and task delegation while supporting the Continuous Deployment pipeline in Jenkins for Python Sphinx documentation. Played a key role in developing, testing, and integrating new functionalities for a React web application using agile methodologies. Monitored satellite data product flow, provided prompt customer support during outages, and utilized AWS S3 and DynamoDB to extend the framework’s capabilities. Engaged in collaborative efforts to ensure seamless project execution and improve overall system performance.
-        </ExperienceCard>
-        <ExperienceCard 
-            date="Jan - May 2024"
-            title="IOS Developer"
-            technologies={["Swift", "Xcode", "Firebase", "Firestore", "Final Cut", "Lucid Charts"]}
-            role="Backend engineer / Manager"
-        >
-            Spearheaded the full-stack development of an iOS mental health platform funded by an Apple innovation grant. Leveraged Swift, Xcode, and Firebase for robust authentication and Firestore for real-time encrypted messaging. Engineered and optimized the application's architecture for high performance and scalability, employing unit and integration testing frameworks to ensure fault tolerance and seamless user interactions. Authored detailed technical documentation and created README videos and app flow diagrams using Final Cut and Lucid Charts, enhancing developer handoff and user understanding.
-        </ExperienceCard>
+        <Accordion title="Experience">
+            <ExperienceCard
+                date="Jun 2024 - Present"
+                title="Total Operational Weather Readiness-Satellites (TOWR-S)"
+                role="Software Developer"
+                technologies={["Python", "JavaScript", "Linux OS", "SQL", "Git", "Jenkins", "AWS DynamoDB", "HTML/CSS", "AWS S3", "Python Sphinx"]}
+            >
+                Maintained and enhanced an existing Python framework for compiling pre-written JavaScript components, facilitating data-driven web applications. Contributed to feature planning and task delegation while supporting the Continuous Deployment pipeline in Jenkins for Python Sphinx documentation. Played a key role in developing, testing, and integrating new functionalities for a React web application using agile methodologies. Monitored satellite data product flow, provided prompt customer support during outages, and utilized AWS S3 and DynamoDB to extend the framework’s capabilities. Engaged in collaborative efforts to ensure seamless project execution and improve overall system performance.
+            </ExperienceCard>
+            <ExperienceCard 
+                date="Jan - May 2024"
+                title="IOS Developer"
+                technologies={["Swift", "Xcode", "Firebase", "Firestore", "Final Cut", "Lucid Charts"]}
+                role="Backend engineer / Manager"
+            >
+                Spearheaded the full-stack development of an iOS mental health platform funded by an Apple innovation grant. Leveraged Swift, Xcode, and Firebase for robust authentication and Firestore for real-time encrypted messaging. Engineered and optimized the application's architecture for high performance and scalability, employing unit and integration testing frameworks to ensure fault tolerance and seamless user interactions. Authored detailed technical documentation and created README videos and app flow diagrams using Final Cut and Lucid Charts, enhancing developer handoff and user understanding.
+            </ExperienceCard>
+        </Accordion>
     </div>
     );
   }
