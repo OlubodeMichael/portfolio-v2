@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/swc-darwin-arm64": "^14.2.13",
     "developer-icons": "^4.2.2",
     "devicon": "^2.16.0",
     "framer-motion": "^11.3.8",
@@ -24,5 +23,8 @@
     "eslint-config-next": "^14.2.5",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
+  },
+  "overrides": {
+  "@next/swc-darwin-arm64": "@next/swc-linux-x64"
   }
 }
