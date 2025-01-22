@@ -8,7 +8,7 @@ import TechTag from "./TechTag"
 
 export default function ProjectCard({link, title, descriptions, technologies}) {
     return (
-        <div className="">
+        <div className="mb-10">
             <SubTitle>{title}</SubTitle>
             <ProjectText>{descriptions}</ProjectText>
             <TechnologiesList technologies={technologies} className="mb-4"/>
